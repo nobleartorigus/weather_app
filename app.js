@@ -3,7 +3,6 @@ const forecast = require('./utils/forecast.js')
 const geocode = require('./utils/geocode.js')
 
 //edit info using information from api, edit at the end ?units=us
-//const url = 'https://api.darksky.net/forecast/acbcb4f32f32f32836fc843489a8ff92/37.8267,-122.4233?units=us'
 
 /*
 request({ url: url }, (error, response) => {
@@ -26,8 +25,7 @@ request({ url: url, json: true }, (error, response) => {
 //Challenge
 
 /*
-url_geo = 'https://api.mapbox.com/geocoding/v5/mapbox.places/Los%20Angeles.json?access_token=pk.eyJ1IjoiZGFuaWVsb3dza2kiLCJhIjoiY2s3cDd2MXVpMGh2ajNocDBna2piMTJ1OSJ9.WfcA6j_mgoHNw3aYWbuBxg&limit=1'
-
+url_geo = 'https://api.mapbox.com/geocoding/v5/
 request({url: url_geo, json: true}, (error, response) => {
     if (error) {
         console.log('Unable to connect to location services!')
